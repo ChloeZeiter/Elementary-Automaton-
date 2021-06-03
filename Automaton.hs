@@ -2,9 +2,7 @@ module Main where
     {--
         define custom types for States, Neighbourhoods, and the Rule bit string
     --}
-
-    import Data.Char
-
+    
     type State = Bool
     stateRepr :: State -> String
     stateRepr s = if s then "1" else " "
