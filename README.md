@@ -2,7 +2,7 @@
 Elementary Automaton simulator written in Haskell
 
 ## What an elementary cellular automaton is
-An elementary automaton is a 1 dimensional grid of cells, in which each cell's state is either a 0 or 1. It updates its state with respect to itself and its 2 adjacent neighbours. 
+An elementary automaton is a 1 dimensional grid of cells in which each cell's state is either a 0 or 1. It updates its state with respect to itself and its 2 adjacent neighbours. 
 
 We can define the following transition table: 
 > 111 -> 0
